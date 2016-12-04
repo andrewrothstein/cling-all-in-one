@@ -1,0 +1,5 @@
+---
+- hosts: all
+  tasks:
+    - name: clone.sh
+      command: ./clone.sh
